@@ -10,5 +10,7 @@ public class Main {
 
         System.out.println(list);
 
+        list.stream().filter(e->e%2==0).forEach(System.out::println);
+
     }
 }
